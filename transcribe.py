@@ -20,8 +20,6 @@ os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 logging.getLogger("transformers").setLevel(logging.ERROR)
 warnings.filterwarnings("ignore", message="PT2InferenceModel has generative capabilities")
 
-
-
 # !pip install --upgrade tensorflow
 # !pip install --upgrade numpy==1.22.0
 # !pip install gspread
